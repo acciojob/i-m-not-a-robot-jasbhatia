@@ -8,6 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
+      <div class="tiles">
+        <img class="img1" src="image1.jpeg" onclick="selectTile(this)">
+        <img class="img2" src="image2.jpeg" onclick="selectTile(this)">
+        <img class="img3" src="image3.jpeg" onclick="selectTile(this)">
+        <img class="img4" src="image4.jpeg" onclick="selectTile(this)">
+        <img class="img5" src="image5.jpeg" onclick="selectTile(this)">
+        <img class="img1" src="image1.jpeg" onclick="selectTile(this)">
+      </div>
+<button id="reset" onclick="reset()" style="display: none;">Reset</button>
+      <button id="verify" onclick="verify()" style="display: none;">Verify</button>
+      <p id="para" style="display: none;"></p>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
