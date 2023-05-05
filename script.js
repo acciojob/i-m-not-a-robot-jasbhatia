@@ -1,13 +1,14 @@
 //your JS code here. If required.
 let selectedTiles = [];
 
-function selectTile(tile) {
-  if (selectedTiles.length < 2) {
+function selectTile(tile) {  if (selectedTiles.length < 2) {
     selectedTiles.push(tile);
     tile.classList.add("selected");
     document.getElementById("reset").style.display = "block";
   }
-}
+
+
+
  if (selectedTiles.length === 2) {
     document.getElementById("verify").style.display = "block";
   }
